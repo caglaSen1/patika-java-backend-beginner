@@ -3,11 +3,11 @@
 
 > Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
-* Step 1 = [22, 27, 16, 2, 18, 6]
-* Step 2 = [2, 22, 27, 16, 18, 6]
-* Step 3 = [2, 6, 22, 27, 16, 18]
-* Step 4 = [2, 6, 16, 22, 27, 18]
-* Step 5 = [2, 6, 16, 18, 22, 27]
+* Step 1 = [22,27,16,2,18,6]
+* Step 2 = [2,22,27,16,18,6]
+* Step 3 = [2,6,22,27,16,18]
+* Step 4 = [2,6,16,22,27,18]
+* Step 5 = [2,6,16,18,22,27]
  
 > Big-O gösterimini yazınız.
 
@@ -32,3 +32,19 @@ Average Case kapsamına girer.
 * Step 6 = [2,3,4,5,6,7,8,15,9]
 * Step 7 = [2,3,4,5,6,7,8,9,15]
 
+---
+
+## Proje 2
+#### [16,21,11,8,12,22] -> Merge Sort
+
+> Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+* Step 1 = [16,21,11,8,12,22]
+* Step 2 = [16,11,21,8,12,22]
+* Step 2 = [11,16,21,8,12,22]
+* Step 2 = [8,11,12,16,21,22]
+
+
+>Big-O gösterimini yazınız.
+
+O(nlogn)
